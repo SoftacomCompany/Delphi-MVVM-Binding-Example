@@ -13,7 +13,6 @@ uses
 type
   TMainForm = class(TForm)
     ControllerFrame1: TControllerFrame;
-    Label1: TLabel;
   private
     FViewModel: TViewModel;
   public

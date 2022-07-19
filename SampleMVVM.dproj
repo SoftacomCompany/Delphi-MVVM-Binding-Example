@@ -193,9 +193,8 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\..\View.pas">
+        <DCCReference Include="View.pas">
             <Form>MainForm</Form>
-            <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="Model.pas"/>
         <DCCReference Include="ViewModel.pas"/>

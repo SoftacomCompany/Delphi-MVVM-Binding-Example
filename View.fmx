@@ -42,10 +42,6 @@ object MainForm: TMainForm
         end
       end
     end
-    object Label1: TLabel [1]
-      Position.X = 296.000000000000000000
-      TabOrder = 1
-    end
     inherited BindingsList1: TBindingsList
       inherited LinkControlToField1: TLinkControlToField
         Control = ControllerFrame1.AtomFrame1.Image
